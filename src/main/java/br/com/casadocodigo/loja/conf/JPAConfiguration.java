@@ -24,8 +24,8 @@ public class JPAConfiguration {
 		factoryBean.setJpaVendorAdapter(vendorAdapter);
 
 		DriverManagerDataSource dataSource = new DriverManagerDataSource();
-		dataSource.setUsername("ryoshinotcc");
-		dataSource.setPassword("abc");
+		dataSource.setUsername("ryoshino");
+		dataSource.setPassword("password");
 		dataSource.setUrl("jdbc:postgresql://localhost:5432/casadocodigo");
 		dataSource.setDriverClassName("org.postgresql.Driver");
 
